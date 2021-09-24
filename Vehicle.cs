@@ -11,7 +11,7 @@ namespace AbstractClasses
         // 2. Create a new virtual method (optional implementation)
         // Implement in two of your concrete classes
 
-        public virtual void Start() 
+        public virtual void Start() // eligible for override (optional)
         {
             System.Console.WriteLine("The vehicle has started");
         }
